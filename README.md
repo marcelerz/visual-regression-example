@@ -9,6 +9,7 @@
 ## Running the application
 
 * `npm test`
+
 In the default configuration, Preceptor, the test-runner, will start a local instance of the Selenium stand-alone server and runs the tests on a locally installed Firefox. After all the tests are done, Preceptor will shutdown the Selenium server, freeing-up all the resources.
 
 ## Configuration
@@ -39,7 +40,7 @@ About two-thirds down the configuration file is the setup for a Selenium server:
     ],
 ```
 
-Change the ```selenium``` entry to ```sauceLabs`` and add a ```configuration``` section to set the username and the access-key.
+Change the ```selenium``` entry to ```sauceLabs``` and add a ```configuration``` section to set the username and the access-key.
 You also want to be more specific on what browser you want to choose (see ```capabilities```):
 
 ```javascript
