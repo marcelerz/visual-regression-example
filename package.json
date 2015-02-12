@@ -1,13 +1,31 @@
 {
-  "name": "visual-regression-only-example",
+  "name": "visual-regression-example",
   "version": "1.0.0",
-  "description": "Example project for Visual-Regression Testing",
-  "main": "index.js",
+  "description": "Example project for Visual-Regression Testing with Kobold",
   "scripts": {
     "test": "node_modules/preceptor/bin/preceptor rule-book.js"
   },
-  "author": "Marcel Erz <marcel.erz@gmail.com> (https://github.com/marcelerz)",
-  "license": "ISC",
+  "homepage": "https://github.com/marcelerz/visual-regression-example",
+  "bugs": "https://github.com/marcelerz/visual-regression-example/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelerz/visual-regression-example.git"
+  },
+  "keywords": [
+    "testing",
+    "preceptor",
+    "webdriver",
+    "selenium",
+    "mocha",
+    "hodman",
+    "blink-diff",
+    "kobold"
+  ],
+  "author": {
+    "name": "Marcel Erz",
+    "email": "me@marcelerz.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "cabbie-alpha": "^1.0.1",
     "hodman": "^0.9.5",
