@@ -1,0 +1,19 @@
+{
+  "name": "visual-regression-only-example",
+  "version": "1.0.0",
+  "description": "Example project for Visual-Regression Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/preceptor/bin/preceptor rule-book.js"
+  },
+  "author": "Marcel Erz <marcel.erz@gmail.com> (https://github.com/marcelerz)",
+  "license": "ISC",
+  "dependencies": {
+    "cabbie-alpha": "^1.0.1",
+    "hodman": "^0.9.5",
+    "kobold": "^0.9.4",
+    "mocha": "^2.1.0",
+    "preceptor": "^0.9.7",
+    "preceptor-webdriver": "^0.9.6"
+  }
+}
