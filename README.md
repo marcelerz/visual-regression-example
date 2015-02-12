@@ -131,8 +131,7 @@ For this, simply wrap the whole task in an array:
     }] // <----
 ```
 
-##Example
+##Example Screenshot
 
-Screenshot from Firefox:
 ![firefox](https://raw.githubusercontent.com/marcelerz/visual-regression-example/master/highlight/firefox_Yahoo-Homepage-Navigation-Bar_1.png)
 
